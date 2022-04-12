@@ -1,0 +1,570 @@
+/* general setting */
+body {
+    background-color: #fd3469;
+}
+
+h1 {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+    font-size: 292pt;
+    color: #ffffff;
+    
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    position: absolute;
+    top: -12cm;
+}
+
+h2 {
+    margin-left: 13%;
+    
+    font-size: 70pt;   
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff
+}
+
+p {
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff
+}
+
+ul {
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff
+}
+
+footer {
+    margin-left: 10%
+}
+
+/* paragrahs and letters */
+.firstparagraph {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+.one-columns{
+    width: 25%;
+}
+
+.two-columns {
+    width: 25%;
+}
+
+.three-columns {
+    width: 25%;
+}
+
+.overlay-p {
+    margin-left: 19%;
+    top: 13.6cm;
+    
+    position: absolute;
+    
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.overlay-p2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+    margin-left: 20%;
+    top: 13.6cm;
+    
+    position: absolute;
+    z-index: 100;
+    
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 50%;
+    -webkit-text-stroke-color:#fd3469;
+    -webkit-text-stroke-width: 2px;
+}
+
+.paragraph-p {
+    position: absolute;
+    margin-left: 15%;
+    top: 17.25cm;
+    width: 20%;
+    text-align: justify;
+}
+
+.overlay-e {
+    margin-left: 19%;
+    top: 21cm;
+    
+    position: absolute;
+    z-index: 100;
+    
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.overlay-e2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;  
+  
+    margin-left: 20%;
+    top: 21cm;
+    
+    position: absolute;
+    z-index: 100;
+    
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 50%;
+
+    -webkit-text-stroke-color: #fd3469;
+    -webkit-text-stroke-width: 2px;
+}
+
+.paragraph-e {
+    position: absolute;
+    margin-left: 15%;
+    top: 24cm;
+    width: 20%;
+    text-align: justify;
+}
+
+.overlay-o {
+    position: absolute;
+    margin-left: 42%;
+    top: 21cm;
+    width: 20%;
+    text-align: justify;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.overlay-o2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+    position: absolute;
+    margin-left: 43%;
+    top: 21cm;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 50%;
+
+    -webkit-text-stroke-color: #fd3469;
+    -webkit-text-stroke-width: 2px;
+}
+
+.paragraph-o {
+    position: absolute;
+    margin-left: 38%;
+    top: 24cm;
+    width: 20%;
+    text-align: justify;
+}
+
+.overlay-n {
+    position: absolute;
+    margin-left: 42%;
+    top: 27.8cm;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.overlay-n2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  
+    position: absolute;
+    margin-left: 43%;
+    top: 27.8cm;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 50%;
+
+    -webkit-text-stroke-color: #fd3469;
+    -webkit-text-stroke-width: 2px;
+}
+
+.paragraph-n {
+    position: absolute;
+    margin-left: 38%;
+    top: 30.7cm;
+    width: 20%;
+    text-align: justify;
+}
+
+.overlay-y {
+    position: absolute;
+    margin-left: 66%;
+    top: 27cm;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.overlay-y2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;  
+   
+    position: absolute;
+    margin-left: 67%;
+    top: 27cm;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+
+    font-size: 200pt;
+    color: #ffffff;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 50%;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fd3469;
+}
+
+.paragraph-y {
+    position: absolute;
+    margin-left: 61%;
+    top: 30.7cm;
+    width: 20%;
+    text-align: justify;
+}
+
+.paeoniaceae-italic {
+    position: absolute;
+    letter-spacing: 11px;
+    
+    font-size: 170pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+
+    top: 40.5cm;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.paeoniaceae-italic2 {
+    animation-name: pulse2;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+    position: absolute;
+    letter-spacing: 11px;
+    
+    font-size: 170pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    opacity: 50%;
+    -webkit-text-stroke-color: #fd3469;
+    -webkit-text-stroke-width: 2px;
+
+    top: 40.5cm;
+    margin-left: 2%;
+    text-align: center;
+
+    z-index: 100;
+}
+
+.loweralphabet {
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 50pt;
+    color: #ffffff;
+    opacity: 100%;
+    width: 45%;
+
+    text-align: right;
+    margin-left: 15%;
+    line-height: 100%;
+}
+
+.upperalphabet {
+    
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 50pt;
+    width: 46%;
+
+    text-align: left;
+    margin-left: 37%;
+    margin-top: 7%;
+    line-height: 100%;
+}
+
+/* decorative elements */
+.decor1 {
+    font-size: 150pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#ffffff;
+
+    position: absolute;
+    left: 3cm;
+    top: 6cm;
+}
+
+.decor1-right {
+    font-size: 150pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#ffffff;
+
+    position: absolute;
+    top: 6cm;
+    right: 3cm;
+}
+
+.decor2 {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+    top: 6cm;
+    position: absolute;
+    font-size: 600pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    color: #ffffff;
+    z-index: 100;
+
+    margin-left: 50%;
+    margin-bottom: 26%;
+}
+
+.decor2-back {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+    top: 2.75cm;
+    position: absolute;
+    font-size: 600pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 510;
+    font-style: normal;
+    color: #ffffff;
+    opacity: 40%;
+
+    margin-top: 0%;
+    margin-left: 46%;
+    margin-bottom: 25%;
+
+    transform: rotate(100deg);
+}
+
+.decor3 {
+    top: 2cm;
+    position: absolute;
+    font-size: 200pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 1000pt;
+    font-style: italic;
+    color: #ffffff;
+
+    margin-left: 75%;
+    margin-top: 53%;
+}
+
+.decor4 {
+    top: 8cm;
+    position: absolute;
+    font-size: 110pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+
+    margin-left: 65%;
+    margin-top: 50%;
+}
+
+.decor5 {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+    top: 2cm;
+    position: absolute;
+    font-size: 800pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    color: #ffffff;
+
+    margin-left: -13%;
+    margin-top: 43%;
+}
+
+.decor5-back {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+    top: 2cm;
+    position: absolute;
+    font-size: 800pt;
+    font-family: ff-meta-web-pro,sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    color: #ffffff;
+    opacity: 50%;
+
+    margin-left: -19%;
+    margin-top: 26%;
+
+    transform: rotate(110deg);
+}
+
+.thinline1 {
+    margin-top: -.2cm;
+    width: 43%;
+    margin-left: 18cm;
+    
+    color:#ffffff
+}
+
+.thinline2 {
+    margin-top: 4.9cm;
+    width: 42.5%;
+    margin-left: 2cm;
+    
+    color:#ffffff
+}
+
+.backbox {
+    top: cm;
+    padding: 1px;
+    margin: -8px;
+    background-color: #ffffff;
+}
+
+/* animation*/
+@keyframes pulse {
+    0% {
+        tranfsorm: scale(0.98);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.98);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        tranfsorm: scale(0.96);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.96);
+    }
+}
